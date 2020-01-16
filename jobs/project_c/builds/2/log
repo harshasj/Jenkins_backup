@@ -1,0 +1,24 @@
+Started by user [8mha:////4GpLdt53Q3pnTom35XD8gCJ0DX7Tstw9ZtoCASKbxtZEAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9jMSi4oxEAKgWWGHBAAAA[0mHarsha
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/project_c
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/harshasj/makebuild.git
+ > git init /var/lib/jenkins/workspace/project_c # timeout=10
+Fetching upstream changes from https://github.com/harshasj/makebuild.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/harshasj/makebuild.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/harshasj/makebuild.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/harshasj/makebuild.git # timeout=10
+Fetching upstream changes from https://github.com/harshasj/makebuild.git
+ > git fetch --tags --progress -- https://github.com/harshasj/makebuild.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 65e46dd795ffb76f66d79b6cab0972fb30d5d11f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 65e46dd795ffb76f66d79b6cab0972fb30d5d11f # timeout=10
+Commit message: "Merge pull request #1 from harshasj/branch1"
+First time build. Skipping changelog.
+[project_c] $ /bin/sh -xe /tmp/jenkins5669174150964631075.sh
+Finished: SUCCESS

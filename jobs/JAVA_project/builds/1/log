@@ -1,0 +1,24 @@
+Started by user [8mha:////4GpLdt53Q3pnTom35XD8gCJ0DX7Tstw9ZtoCASKbxtZEAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9jMSi4oxEAKgWWGHBAAAA[0mHarsha
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/JAVA_project
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/harshasj/project_java.git
+ > git init /var/lib/jenkins/workspace/JAVA_project # timeout=10
+Fetching upstream changes from https://github.com/harshasj/project_java.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/harshasj/project_java.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/harshasj/project_java.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/harshasj/project_java.git # timeout=10
+Fetching upstream changes from https://github.com/harshasj/project_java.git
+ > git fetch --tags --progress -- https://github.com/harshasj/project_java.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision e4fc55d39a806c7675913f3328476be7afd40fd1 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f e4fc55d39a806c7675913f3328476be7afd40fd1 # timeout=10
+Commit message: "Added all the changes"
+First time build. Skipping changelog.
+[JAVA_project] $ /bin/bash /tmp/jenkins6807780391033121499.sh
+Finished: SUCCESS

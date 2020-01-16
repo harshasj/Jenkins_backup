@@ -1,0 +1,43 @@
+Started by GitHub push by harshasj
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/project_c
+No credentials specified
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/harshasj/makebuild.git # timeout=10
+Fetching upstream changes from https://github.com/harshasj/makebuild.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/harshasj/makebuild.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision fb2f89c443274938ae050bd0b27a4b20324743d5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f fb2f89c443274938ae050bd0b27a4b20324743d5 # timeout=10
+Commit message: "Update main.c"
+ > git rev-list --no-walk 65e46dd795ffb76f66d79b6cab0972fb30d5d11f # timeout=10
+[project_c] $ /bin/bash /tmp/jenkins4523999282073693438.sh
+
+We trust you have received the usual lecture from the local System
+Administrator. It usually boils down to these three things:
+
+    #1) Respect the privacy of others.
+    #2) Think before you type.
+    #3) With great power comes great responsibility.
+
+sudo: no tty present and no askpass program specified
+gcc -c main.c
+main.c: In function ‘main’:
+main.c:4:2: warning: implicit declaration of function ‘big’ [-Wimplicit-function-declaration]
+  big();
+  ^~~
+main.c:5:2: warning: implicit declaration of function ‘fact’ [-Wimplicit-function-declaration]
+  fact();
+  ^~~~
+main.c:6:2: warning: implicit declaration of function ‘palindrome’ [-Wimplicit-function-declaration]
+  palindrome();
+  ^~~~~~~~~~
+main.c:7:2: warning: implicit declaration of function ‘reverse’ [-Wimplicit-function-declaration]
+  reverse();
+  ^~~~~~~
+gcc -o abc.exe main.o big3.o reverse.o pallindrome.o fact.o
+Finished: SUCCESS

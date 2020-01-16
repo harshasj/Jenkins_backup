@@ -1,0 +1,11 @@
+Started on Jan 14, 2020 5:39:29 PM
+Started by event from 192.30.252.88 ⇒ http://18.220.168.19:8080/github-webhook/ on Tue Jan 14 17:39:29 UTC 2020
+Using strategy: Default
+[poll] Last Built Revision: Revision fb2f89c443274938ae050bd0b27a4b20324743d5 (refs/remotes/origin/master)
+No credentials specified
+ > git --version # timeout=10
+ > git ls-remote -h -- https://github.com/harshasj/makebuild.git # timeout=10
+Found 2 remote heads on https://github.com/harshasj/makebuild.git
+[poll] Latest remote head revision on refs/heads/master is: 11695038403d903c18d373e4868c9430855751a9
+Done. Took 99 ms
+Changes found

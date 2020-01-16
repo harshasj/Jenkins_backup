@@ -1,0 +1,27 @@
+Started by user [8mha:////4GpLdt53Q3pnTom35XD8gCJ0DX7Tstw9ZtoCASKbxtZEAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9jMSi4oxEAKgWWGHBAAAA[0mHarsha
+Running as SYSTEM
+Building remotely on [8mha:////4Ba/DpAR9ceEFhT551YKrUBBTedrVVSSGZOLrDJsVZoTAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyeEgYx/eT83ILSktQi/YKi/KzU5JJ4kKEA/K+XocsAAAA=[0mproject_java in workspace /home/ec2-user/workspace/project_c
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/harshasj/makebuild.git
+ > git init /home/ec2-user/workspace/project_c # timeout=10
+Fetching upstream changes from https://github.com/harshasj/makebuild.git
+ > git --version # timeout=10
+ > git fetch --tags --progress -- https://github.com/harshasj/makebuild.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/harshasj/makebuild.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/harshasj/makebuild.git # timeout=10
+Fetching upstream changes from https://github.com/harshasj/makebuild.git
+ > git fetch --tags --progress -- https://github.com/harshasj/makebuild.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision 11695038403d903c18d373e4868c9430855751a9 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 11695038403d903c18d373e4868c9430855751a9 # timeout=10
+Commit message: "Update main.c"
+ > git rev-list --no-walk 11695038403d903c18d373e4868c9430855751a9 # timeout=10
+[project_c] $ /bin/bash /tmp/jenkins3404022575761051639.sh
+/bin/cd: line 2: cd: /var/lib/jenkins/workspace/project_c: No such file or directory
+/tmp/jenkins3404022575761051639.sh: line 3: make: command not found
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
